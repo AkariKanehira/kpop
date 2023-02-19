@@ -1,0 +1,64 @@
+<%= form_for(@idol, class: 'form-horizontal', role: 'form') do |f| %>
+    <div class="container-sindan">
+
+        <div class="fadeup">
+            <div class="title">
+            <p>！以下の問いに答えてね！<br>
+            当てはまること1つにチェックをつけてみよう</p>
+            </div>
+
+            <div class="row">
+                <div class="box12">
+                    <div class="col-12">
+                        <p>Question1. あなたが行動する際に重視することは？</p>
+                    </div>
+                    <div class="col-6">
+                        <p><%= f.check_box :question, {multiple: true}, "1", nil %>全てにおいて完璧を目指す</p>
+                    </div>
+                    <div class="col-6">
+                        <p><%= f.check_box :question, {multiple: true}, "2", nil %>自分の個性を出す</p>
+                    </div>
+                    <div class="col-6">
+                        <p><%= f.check_box :question, {multiple: true}, "3", nil %>仲間に相談しながら進める</p>
+                    </div>
+                </div>
+
+                <div class="box12">
+                    <div class="col-12">
+                        <p>Question2. あなたは仕事のプレゼンでうまく上司に<br>
+                        内容を伝えられませんでした。<br>
+                        あなたはその後どうする？</p>
+                    </div>
+                    <div class="col-6">
+                        <p><%= f.check_box :question, {multiple: true}, "1", nil %>今持つ実力をもっと磨いて次のプレゼンに備える乗り越える</p>
+                    </div>
+                    <div class="col-6">
+                        <p><%= f.check_box :question, {multiple: true}, "2", nil %>基礎に戻り、自身の考え方、行動を見直す</p>
+                    </div>
+                    <div class="col-6">
+                    <p><%= f.check_box :question, {multiple: true}, "3", nil %>自分の行動に対して、他者からの評価を聞いて客観してみる</p>
+                    </div>
+                </div>
+
+                <div class="box12">
+                    <div class="col-12">
+                        <p>Question3. あなたはどんな曲を聞く？</p>
+                    </div>
+                    <div class="col-6">
+                        <p><%= f.check_box :question, {multiple: true}, "1", nil %>最先端の電子音の目立つ独特な曲</p>
+                    </div>
+                    <div class="col-6">
+                        <p><%= f.check_box :question, {multiple: true}, "2", nil %>ラップ調の強いヒップホップ系の曲</p>
+                    </div>
+                    <div class="col-6">
+                    <p><%= f.check_box :question, {multiple: true}, "3", nil %>耳馴染みがよく、聞きやすい明るい曲</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="box">
+        <input type="submit" value="診断結果へ" class="button">
+        </div>
+
+<% end %>

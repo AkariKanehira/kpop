@@ -1,0 +1,136 @@
+.fadeup{
+    animation-name:fadeUpAnime;
+    animation-duration:1.0s;
+    animation-fill-mode:forwards;
+    opacity:0;
+}
+
+    @keyframes fadeUpAnime{
+    from {
+        opacity: 0;
+        transform: translateY(100px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.title{ 
+    width: 80%;
+    margin: 0 auto;
+
+    font-family: 'DotGothic16';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 29px;
+    text-align: center;
+
+    color: #000000;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+    -webkit-text-stroke: 2px black;
+}
+
+.row{
+    width: 80%;
+    margin: 0 auto;
+
+    font-family: 'DotGothic16';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 29px;
+    text-align: center;
+
+    color: #000000;
+
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+    -webkit-text-stroke: 2px black;
+
+}
+
+.col-12{/*質問箱 */
+    width: 80%;
+    margin: 0 auto;
+
+    font-size: 30px;
+    border: 5px solid #F216A5;
+    box-sizing: border-box;
+
+    line-height: 200%;    
+}
+
+.box12{
+    padding: 0.5em 1em;
+    margin: 2em 0;
+    color: #5989cf;
+    background: #c6e4ff;
+    border-bottom: solid 6px #aac5de;
+    border-radius: 9px;
+}
+.box12 p {
+    margin: 0; 
+    padding: 0;
+
+}
+
+.col-6{
+    line-height: 250%;
+}
+
+.button {
+    display       : inline-block;
+    border-radius : 5%;          /* 角丸       */
+    font-size     : 18pt;        /* 文字サイズ */
+    text-align    : center;      /* 文字位置   */
+    cursor        : pointer;     /* カーソル   */
+    padding       : 12px 12px;   /* 余白       */
+    background    : #dfdc07f7;     /* 背景色     */
+    color         : #F216A5;     /* 文字色     */
+    line-height   : 1em;         /* 1行の高さ  */
+    transition    : .3s;         /* なめらか変化 */
+    box-shadow    : 6px 6px 3px #666666;  /* 影の設定 */
+    border        : 2px solid #000066;    /* 枠の指定 */
+    
+    font-family   : 'DotGothic16';
+    color: #F216A5;
+    font-size: 35px;
+    font-weight: 400px;
+    text-shadow:  /* 縁取り1pxを同じ色でつける */
+    10px 0 0  #F216A5,
+    0 10px 0 #F216A5,
+    -10px 0 0 #F216A5,
+    0 -10px 0 #F216A5;
+
+    font-weight: bold;
+    text-shadow:
+                -3px -0px 0px #000, -3px 0px 0px #000, -3px 3px 0px #000,
+                0px -3px 0px #000, 0px 3px 0px #000,
+                3px -3px 0px #000,  3px 0px 0px #000,  3px 3px 0px #000;
+    color: #f216a5;
+    text-shadow: 0px 5px 5px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+    -webkit-text-stroke: 0.1px black;
+
+    width: 40%;
+}
+
+.button:hover {
+    box-shadow    : none;        /* カーソル時の影消去 */
+    color         : #f216a5;     /* 背景色     */
+    background    : #dfdc07f7;     /* 文字色     */
+
+    font-weight: bold;
+    text-shadow:
+                -3px -0px 0px #000, -3px 0px 0px #000, -3px 3px 0px #000,
+                0px -3px 0px #000, 0px 3px 0px #000,
+                3px -3px 0px #000,  3px 0px 0px #000,  3px 3px 0px #000;
+    text-shadow: 0px 5px 5px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+    -webkit-text-stroke: 0.1px black;
+
+}
+
+.box{
+    text-align: center;
+}

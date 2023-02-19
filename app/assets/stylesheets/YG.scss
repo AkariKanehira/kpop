@@ -1,0 +1,272 @@
+.fadeup{
+    animation-name:fadeUpAnime;
+    animation-duration:1.0s;
+    animation-fill-mode:forwards;
+    opacity:0;
+}
+
+    @keyframes fadeUpAnime{
+    from {
+        opacity: 0;
+        transform: translateY(100px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.setumei{
+    font-family: 'DotGothic16';
+    font-style: normal;
+    text-align: center;
+
+    color: #000000;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+    -webkit-text-stroke: 2px black;
+}
+
+
+
+.intoro {   /*あなたは・・・＝最初の部分*/
+    width: 80%;
+    margin: 0 auto;
+    font-family: 'DotGothic16';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 29px;
+    text-align: center;
+
+    color: #000000;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+    -webkit-text-stroke: 2px black;  
+}
+
+.sindankekka {    /*≪ＳＭエンターテイメント≫ 系統のアイドルが好き！*/
+    /*padding: 0.5em 1em;
+    margin: 2em 0; */
+    width: 90%;
+    
+    margin: 0 auto;
+    color: #000000;
+    background: #F216A5
+}
+
+.sindankekka p {
+    margin: 0; 
+    padding: 0 auto;
+    margin: 0 auto;
+
+}
+
+.box13{  /* ≪ＳＭエンターテイメント≫系統のアイドルが好き！*/
+
+    margin: 0 auto;
+    font-family: 'DotGothic16';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 200px;
+    line-height: 29px;
+    text-align: center;
+
+    color: #000000;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+    -webkit-text-stroke: 2px black;
+
+    font-size: 30px;
+    border: 10px solid #000000;
+    box-sizing: content-box; 
+}
+
+.box13 h6{
+    font-size: 60px;
+    line-height: 60px;
+}
+
+.gaiyou{  /*SMについての説明部分*/
+    width: 80%;
+    padding: 0.5em 1em;
+    margin: 2em auto;
+    border: double 13px #05F283;
+    background-color: lightblue;
+
+    font-size: 30px;
+    line-height: 35px;
+    text-align: center;
+}
+
+.gaiyou p {
+    margin: 0; 
+    padding: 0;
+}
+
+.setumei span{  /*spanに共通条件*/
+    font-size: 26px;
+    font-weight: 700;
+}
+
+.gaiyou span.green{  /*概要説明の部分*/
+    color: #05F283;
+    font-size: 60px;
+    font-weight: initial;
+}
+
+.blackpink span.pink{  /*ＮＣＴ１２７説明部分箇所　重要なところピンク指定*/
+    color: #F216A5;
+    font-size: 50px;
+    font-weight: initial;
+}
+
+.treasure span.pink{  /*aespa説明部分箇所　重要なところピンク指定*/
+    color: #F216A5;
+    font-size: 55px;
+    font-weight: initial;
+}
+
+.blackpink{
+    position: relative;
+    width: 80%;
+    margin: 2em auto;
+    border: solid 10px #F216A5;
+    background-color: lightblue;
+}
+
+.blackpinkpointbox{
+    position: absolute;
+    display: inline-block;
+    top: -27px;
+    left: -3px;
+    padding: 0 9px;
+    height: 25px;
+    line-height: 25px;
+    font-size: 17px;
+    background: #F216A5;
+    color: #ffffff;
+    font-weight: bold;
+    border-radius: 5px 5px 0 0;
+}
+/*.nct127pointbox p {    ボックスデザインうまくできたらやる！
+    margin: 0; 
+    padding: 0;
+}  
+
+.nct127kyoku h1{
+    position: sticky;
+    padding-left: 40px;
+    margin: 0 auto;
+    width: 80%;
+}
+
+.nct127kyoku h1:before {
+    position: absolute;
+    font-family: "Font Awesome 5 Free";
+    content: "\f0eb";
+    background: #ffca2c;
+    color: white;
+    font-weight: 900;
+    font-size: 15px;
+    border-radius: 50%;
+    left: 0;
+    width: 25px;
+    height: 25px;
+    line-height: 25px;
+    text-align: center;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+.nct127kyoku  h1:after {
+    /*吹き出しのちょこんと出た部分*/
+    /*content: '';
+    display: block;
+    position: absolute;
+    left: 20px;
+    height: 0;
+    width: 0;
+    border-top: 7px solid transparent;
+    border-bottom: 7px solid transparent;
+    border-left: 12px solid #ffca2c;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+}*/
+
+.blackpink h6{
+    font-size: 150%;
+}
+
+.blackpinkshoukai{
+    font-size: 20px;
+}
+
+.treasure{
+    position: relative;
+    width: 80%;
+    margin: 2em auto;
+    border: solid 10px #F216A5;
+    background-color: lightblue;
+}
+
+.treasurepointbox{
+    position: absolute;
+    display: inline-block;
+    top: -27px;
+    left: -3px;
+    padding: 0 9px;
+    height: 25px;
+    line-height: 25px;
+    font-size: 17px;
+    background: #F216A5;
+    color: #ffffff;
+    font-weight: bold;
+    border-radius: 5px 5px 0 0;
+}
+
+.treasure h6{
+    font-size: 150%;
+}
+
+.treasureshoukai {
+    font-size: 20px;
+}
+
+.ygmatome{
+    width: 80%;
+    margin: 0 auto;
+    font-family: 'DotGothic16';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 35px;
+    text-align: center;
+}
+
+.ygmatomebox{
+    position: relative;
+    padding: 0.5em 0.7em;
+    margin: 2em 0;
+    background: #e6f4ff;
+    color: #5c98d4;
+    font-weight: bold;
+    border-right: solid 6px #5772ca;
+    box-shadow: 2px 6px 2px rgba(0, 0, 0, 0.33);
+
+}
+.ygmatomebox:after {
+    position: absolute;
+    content: '';
+    top: 100%;
+    left: 30px;
+    border: 15px solid transparent;
+    border-top: 15px solid #e6f4ff;
+    width: 0;
+    height: 0;
+}
+
+.ygmatomebox p {
+    margin: 0; 
+    padding: 0;
+}
